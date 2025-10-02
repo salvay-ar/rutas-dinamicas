@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Garamond", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  background-color: #000;
+  color: #fff;
+}
+
+.detalle-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 70px 20px;
+  min-height: 100vh;
+}
+
+.detalle-card {
+  display: flex;
+  flex-direction: row;
+  background-color: #111;
+  border-radius: 12px;
+  overflow: hidden;
+  max-width: 1000px;
+  width: 100%;
+  box-shadow: 0 0 30px rgba(0,0,0,0.7);
+}
+
+.detalle-poster {
+  width: 450px;
+  height: auto;
+  object-fit: cover;
+}
+
+.detalle-info {
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "Segoe UI", Tahoma, Geneva, sans-serif; /* legible para texto */
+}
+
+.detalle-titulo {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  font-family: "Garamond", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+.detalle-director,
+.detalle-ano {
+  font-size: 1.4rem;
+  color: #ccc;
+  margin-bottom: 12px;
+}
+
+.detalle-descripcion {
+  margin-top: 25px;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #ddd;
+}
+
+.acotaciones {
+  margin-top: 100px;
+  color:  #909090;
+}
