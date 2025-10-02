@@ -108,6 +108,11 @@ function Peliculas() {
     },
   ];
 
-  return <Outlet context={peliculas} />;
+  return (
+    <>
+      <h1 className="nombre-pagina">Crónicas de la Pantalla Grande</h1>
+      <Outlet context={peliculas} />;
+    </> 
+  )
 }
 export default Peliculas;
